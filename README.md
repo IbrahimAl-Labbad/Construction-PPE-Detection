@@ -92,4 +92,4 @@ The model detects the following PPE equipment:
 -  **Gloves:** ✅
 -  **Boots:** ✅
 -  **Humans:** ✅
--  **Results are saved under the** `runs/detect/predict/ folder`.
+  
