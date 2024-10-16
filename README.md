@@ -11,8 +11,9 @@ This project utilizes a **YOLOv8** object detection model to identify essential 
 4. [Installation](#installation)  
 5. [Usage](#usage)  
 6. [Results](#results)  
-7. [Folder Structure](#folder-structure)  
-8. [Contributors](#contributors)
+7. [FastAPI and Streamlit Application](#fastapi-and-streamlit-application)  
+8. [Folder Structure](#folder-structure)  
+
 
 ---
 
@@ -92,4 +93,35 @@ The model detects the following PPE equipment:
 -  **Gloves:** ✅
 -  **Boots:** ✅
 -  **Humans:** ✅
-  
+
+##  **FastAPI and Streamlit Application**
+- This project includes a FastAPI backend that serves a RESTful API for PPE detection. It utilizes the YOLOv8 model to process image uploads and return detection results.
+
+- A Streamlit frontend provides an interactive interface for users to upload images and view detected PPE in real time. The combination of FastAPI and Streamlit allows for efficient processing and user-friendly interactions.
+
+
+## **Folder Structure**
+```
+Construction-PPE-Detection/
+│
+├── train/
+│   ├── weights/
+│   └── ...  
+│
+├── fastapi_app/
+│   └── main.py
+│
+├── streamlit_app/
+│   └── app.py
+│
+├── data.yaml
+├── requirements.txt
+└── README.md
+```
+## **Thanks for Reading!** 🙏
+
+I appreciate your interest in the Construction PPE Detection project. If you have any questions or feedback, feel free to reach out!
+
+
+
+
